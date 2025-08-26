@@ -1,0 +1,214 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  padding-left: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 40px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #66666659;
+  padding: 9px 16px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  color: #666666cc;
+}
+.search img {
+  width: 16px;
+  height: 16px;
+}
+.form-country {
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: #333333;
+}
+.login {
+  border: 1px solid #66666659;
+  padding: 9px 16px;
+  border-radius: 8px;
+  background-color: #111111;
+  color: #ffffff;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  justify-content: space-around;
+  width: 100%;
+}
+.right {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center;
+  max-width: 772px;
+}
+.title {
+  width: 498px;
+  height: 188px;
+  opacity: 1;
+  top: 178px;
+  left: 80px;
+  gap: 24px;
+}
+.main-subtitle {
+  font-size: 48px;
+  font-weight: 400;
+}
+.subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: #ffffffcc;
+  opacity: 80%;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.image-left {
+  width: 538px;
+  height: 538px;
+  opacity: 1;
+  top: 398px;
+  left: 33px;
+}
+.left {
+  justify-self: right;
+  align-items: center;
+  gap: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.name {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+.first-name input,
+.last-name input,
+.email input,
+.password input {
+  border: 1px solid #66666659;
+  padding: 14px 16px;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 35%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 48px 88px;
+}
+.first-name label,
+.last-name label,
+.email label,
+.password-label label,
+.phone-number label {
+  margin-bottom: 4px;
+  display: inline-block;
+}
+.country-code,
+.flag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.flag img {
+  width: 36px;
+  height: 22px;
+}
+.phone-input {
+  border: none;
+  outline: none;
+}
+.flag select {
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.input-phone {
+  border: 1px solid #66666659;
+  padding: 14.7px 24px;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.password-label {
+  display: flex;
+  justify-content: space-between;
+}
+.show-hide {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.checkbox-container input[type="checkbox"] {
+  width: 24px;
+  height: 18px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: black;
+}
+.checkbox-container a {
+  color: #111111;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.form-button {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.form-button button {
+  width: 164px;
+  height: 64px;
+  opacity: 0.25;
+  border-radius: 40px;
+  background-color: #111111;
+  font-size: 22px;
+  color: #ffffff;
+}
+.form-button label a {
+  color: #111111;
+  text-decoration: underline;
+  font-weight: 500;
+}
